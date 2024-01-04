@@ -1,0 +1,22 @@
+para correr el entorno virtual debes estar en la rama del proyecto
+source env/bin/activate
+
+para salir del entorno: 
+deactivate
+
+para crear un entorno virtual:
+virtualenv -p python3 env
+
+para crear el proyecto:
+django-admin startproject djangoRedis
+
+recuerda regresar a djangoRedis y usar:
+python3 manage.py migrate
+
+para correr el proyecto: 
+python3 manage.py runserver
+
+crear la app fuera del entorno
+django-admin startapp mainApp
+
+
